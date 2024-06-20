@@ -17,3 +17,5 @@
 *.bin
 *.json
 *.db
+/libs
+*.exp
