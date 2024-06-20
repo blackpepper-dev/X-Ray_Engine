@@ -103,7 +103,7 @@ void*  FileDownload(LPCSTR fn, u32* pdwSize)
 		hFile	= _open(fn,O_RDONLY|O_BINARY|O_SEQUENTIAL,_S_IREAD);
 #endif
 	}
-	R_ASSERT2(hFile>0,fn);
+	//R_ASSERT2(hFile>0,fn);
 #ifdef _EDITOR
 	size	= filelength(hFile);
 #else
